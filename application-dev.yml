@@ -11,3 +11,6 @@ spring:
 management:
   security:
     enabled: false    # springboot 1.5.x 以上默认开通了安全认证，所以需要在配置文件application.yml添加此配置，以post请求的方式来访问http://localhost:8081/refresh 就会更新修改后的配置文件
+
+deveb:
+  test: true
