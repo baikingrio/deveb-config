@@ -18,5 +18,10 @@ spring:
       trace:
         enabled: true
       enabled: true
+  rabbitmq:
+    host: 192.168.99.100
+    port: 32775
+    username: guest
+    password: guest
 deveb:
   test: 
