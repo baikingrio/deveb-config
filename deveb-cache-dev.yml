@@ -13,12 +13,10 @@ spring:
         max-idle: 8 # 连接池中的最大空闲连接
         min-idle: 0 # 连接池中的最小空闲连接
     timeout: 0
-    
-management:
-  endpoints:
-    web:
-      exposure:
-        include: refresh
-
+  cloud:
+    bus:
+      trace:
+        enabled: true
+      enabled: true
 deveb:
   test: 
